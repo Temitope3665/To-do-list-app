@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav-bar fixed-top navbar navbar-expand-lg navigation-bar">
+        <div class="container">
+
+          <a class="navbar-brand" href="#">
+            <img class="" src="./icons/Logo.svg" alt="brand logo" />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="navbar-toggler-icon" src="./icons/menu.svg" alt="menu" />
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="nav-links ms-auto">
+                    <div class="nav-links navbar-nav text-center fw-normal my-btn">
+                        <button class="sign-in-btn">Sign in</button>
+                        <button class="create-btn">Create an account</button>
+                    </div>
+                </div>
+             
+          </div>
+
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 img-header">
+                    <img class="top-header-img" src="./images/header-img.jpg" alt="bg" />
+                </div>
+                <div class="col-12">
+                    <h1 class="text-center fw-medium mt-5 fs-1 p-2">TasksBoard</h1>
+                    <p class="text-center fw-light fs-5 mt-2 p-2">A desktop app for your general Tasks</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container mb-5">
+            <div class="my-to-do">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-black-50 fw-medium fs-5">My To-Do Lists</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <div class="form-check mt-3 my-form">
+                            <input class="form-check-input forms-display" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label forms-display" for="flexCheckDefault">
+                              <p class="ms-3 me-2 forms-display">Let's do javascript later tomorrow by 12:00am</p>
+                            </label>
+                            <div class="delete">
+                                <img class="delete-icon" src="./icons/delete.svg" alt="delete" width="18" height="18" />
+                            </div>
+                        </div>
+                        
+
+                        <div class="form-check mt-3 my-form">
+                            <input class="form-check-input forms-display" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label forms-display" for="flexCheckDefault">
+                              <p class="ms-3 me-2 forms-display">Let's do javascript later tomorrow by 12:00am</p>
+                            </label>
+                            <div class="delete">
+                                <img class="delete-icon" src="./icons/delete.svg" alt="delete" width="18" height="18" />
+                            </div>
+                        </div>
+
+                        <div class="form-check mt-3 my-form">
+                            <input class="form-check-input forms-display" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label forms-display" for="flexCheckDefault">
+                              <p class="ms-3 me-2 forms-display">Let's do javascript later tomorrow by 12:00am</p>
+                            </label>
+                            <div class="delete">
+                                <img class="delete-icon" src="./icons/delete.svg" alt="delete" width="18" height="18" />
+                            </div>
+                        </div>
+                          
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="add-btn"><img class="add-icon me-3" src="./icons/add.svg" alt="add" />Add a new task</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="containter mb-3 footer-items">
+            
+                <div class="">
+                    <p class="fw-normal footer-note">Developed by Temitope<br/>A short project duirng Enyata Academy</p>
+                </div>
+
+                <div class="social-media">
+                    <img src="./icons/facebook.svg" alt="fb" width="14" height="14" />
+                    <img class="ms-3" src="./icons/twitter.svg" alt="tw" width="14" height="14" />
+                    <img class="ms-3" src="./icons/instagram.svg" alt="ig" width="14" height="14"/>
+                    <img class="ms-3" src="./icons/linkedin.svg" alt="linkedin" width="14" height="14" />
+                </div>
+           
+        </div>
+        
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

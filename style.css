@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Poppins";
+    color: #fff;
+    box-sizing: border-box;
+}
+
+h1,
+p{
+    color: #000;
+}
+
+.navigation-bar {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.096) 0px 8px 24px;
+    padding: 0.6em;
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0; */
+}
+
+.sign-in-btn {
+    padding: 0.6em 1.4em 0.6em 1.4em;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 0.6em;
+    color: black;
+}
+
+.sign-in-btn:hover {
+    color: blue;
+    border: 1px solid blue;
+}
+
+.create-btn {
+    padding: 0.6em 1.4em 0.6em 1.4em;
+    border: 1px;
+    background-color: #062863;
+    border-radius: 0.6em;
+    color: #fff;
+    font-size: lighter;
+    margin-left: 20px;
+}
+
+.create-btn:hover {
+    background-color: blue;
+}
+
+.img-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+}
+
+.top-header-img {
+    width: 70%;
+}
+
+.my-to-do {
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    margin-left: 90px;
+    padding: 10px;
+    margin-top: 33px;
+    border-radius: 10px;
+    box-shadow: rgba(21, 2, 75, 0.05) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; */
+}
+
+.my-form {
+    display: flex;
+    flex-direction: row;
+    /* border-bottom: 1px solid rgba(50, 50, 51, 0.151); */
+    padding-bottom: 10px;
+}
+
+.forms-display {
+    cursor: pointer;
+}
+
+.delete {
+    margin-left: auto;
+}
+
+.delete-icon {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #062863;
+    color: white;
+    padding: 0.4em 1.4em 0.4em 1.4em;
+    margin-top: -20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-btn:hover {
+    background-color: blue;
+}
+
+.footer-note {
+    font-size: 10px;
+    color: #062863;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+@media screen and  (max-width: 820px) {
+
+    .create-btn {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .my-to-do {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .delete-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
