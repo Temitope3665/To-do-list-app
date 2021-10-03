@@ -139,3 +139,10 @@ p{
         height: 15px;
     }
 }
+
+@media screen and  (max-width: 410px) {
+    .footer-items {
+        display: flex;
+        flex-direction: column;
+    } 
+}
